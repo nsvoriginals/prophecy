@@ -1,5 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+
+import 'globalthis/polyfill';
+
 import WalletContextProvider from "@/components/WalletContextProvider";
 import '@solana/wallet-adapter-react-ui/styles.css';
 const geistSans = Geist({
